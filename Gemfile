@@ -1,20 +1,22 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
 ruby '2.4.2'
 
+gem 'coffee-rails', '~> 4.0.0'
+gem 'cowsay'
+gem 'font-awesome-sass'
+gem 'jbuilder', '~> 2.0'
+gem 'jquery-rails'
+gem 'meta-tags', require: 'meta_tags'
+gem 'puma'
 gem 'rails', '4.2.3'
 gem 'rails_12factor'
-gem 'slim-rails'
 gem 'sass-rails', '~> 5.0.0'
-gem 'font-awesome-sass'
-gem 'coffee-rails', '~> 4.0.0'
-gem 'jquery-rails'
-gem 'uglifier', '>= 1.3.0'
-gem 'jbuilder', '~> 2.0'
-gem 'puma'
-gem 'cowsay'
+gem 'slim-rails'
 gem 'therubyracer'
-gem 'meta-tags', :require => 'meta_tags'
+gem 'uglifier', '>= 1.3.0'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
@@ -22,22 +24,22 @@ group :development, :test do
   gem 'awesome_print'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'foreman'
   gem 'guard-bundler'
   gem 'guard-rubocop'
-  gem 'pry-rails'
   gem 'pry-byebug'
-  gem 'pry-doc'
   gem 'pry-coolline'
+  gem 'pry-doc'
+  gem 'pry-rails'
+  gem 'rspec-rails'
   gem 'rubocop'
   gem 'rubocop-performance'
-  gem 'sqlite3'
   gem 'spring'
   gem 'spring-commands-rspec'
-  gem 'rspec-rails'
+  gem 'sqlite3'
   gem 'turnip'
-  gem 'factory_girl_rails'
-  gem 'database_cleaner'
-  gem 'foreman'
 end
 
 group :production do
