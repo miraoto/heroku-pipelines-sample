@@ -29,6 +29,7 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-coolline'
   gem 'rubocop'
+  gem 'rubocop-performance'
   gem 'sqlite3'
   gem 'spring'
   gem 'spring-commands-rspec'
