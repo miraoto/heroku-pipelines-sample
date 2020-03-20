@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-ruby '2.4.2'
+ruby '2.6.5'
 
 gem 'coffee-rails', '~> 4.0.0'
 gem 'cowsay'
